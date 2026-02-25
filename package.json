@@ -1,0 +1,14 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "build:all": "npm run build pt fullstack && npm run build en fullstack && npm run build pt backend && npm run build en backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

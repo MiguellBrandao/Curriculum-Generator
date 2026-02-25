@@ -1,0 +1,197 @@
+{
+  "name": "Miguel Brandão",
+  "contact": {
+    "location": "Portimão, Portugal",
+    "email": "miguellbwork@gmail.com",
+    "linkedin": "linkedin.com/in/miguellbpt",
+    "github": "github.com/MiguellBrandao"
+  },
+  "labels": {
+    "summary": "Professional Summary",
+    "skills": "Technical Skills",
+    "experience": "Professional Experience",
+    "projects": "Projects",
+    "education": "Education & Languages"
+  },
+  "education": [
+    {
+      "title": "Vocational Course in Management and Programming of IT Systems <span style=\"font-weight:600;\">(QNQ/EQF – Level 4)</span>",
+      "meta": "Final Grade: <b>19/20</b>",
+      "date": "2021 - 2024"
+    },
+    {
+      "title": "English",
+      "meta": "B1",
+      "date": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Booking Marketplace API",
+      "date": "",
+      "sub": "NestJS • PostgreSQL • BullMQ • Redis",
+      "bullets": [
+        "Developed backend API for a booking marketplace with listings and availability blocks management.",
+        "Implemented booking confirmation with transactions and pessimistic locking (preventing overbooking under concurrency).",
+        "Asynchronous processing via BullMQ for automatic expiration of pending reservations."
+      ]
+    },
+    {
+      "title": "Keymeter API",
+      "date": "",
+      "sub": "Express • Prisma • PostgreSQL • Redis",
+      "bullets": [
+        "Developed a multi-tenant backend for event ingestion and analytics.",
+        "Implemented RBAC and API keys lifecycle management with strict scoped verification.",
+        "Integrated with Redis for rate limiting and daily data tracking aggregation saved in PostgreSQL."
+      ]
+    },
+    {
+      "title": "VINC AI",
+      "date": "",
+      "sub": "React • Supabase • BullMQ",
+      "bullets": [
+        "AI platform that automates capturing and extracting invoices received via corporate email.",
+        "Implemented highly reliable background job queues using BullMQ for non-blocking, parallel processing.",
+        "Fast backend architecture powered by Supabase and structured data extraction utilizing large language models."
+      ]
+    }
+  ],
+  "variants": {
+    "fullstack": {
+      "headline": "Full Stack Developer - Node.js • Laravel • Ruby on Rails • React • Vue",
+      "summary": "Full Stack Developer with experience in end-to-end web application development, acting in both backend and frontend using Node.js, Laravel, Ruby on Rails, React, Vue, and React Native. Focused on REST APIs, integrations, automation, and data-driven systems, with hands-on deployments in AWS and Firebase.",
+      "skills": [
+        "<b>Backend:</b> Node.js (Express), NestJS, Laravel, CakePHP, Ruby on Rails",
+        "<b>Frontend:</b> React, Next.js, Vue, React Native, Angular (Basics)",
+        "<b>Databases:</b> SQL Server, PostgreSQL, MariaDB/MySQL, MongoDB",
+        "<b>Infra:</b> Docker, AWS, Firebase, Git/GitHub"
+      ],
+      "experience": [
+        {
+          "title": "W4M - Mid-Level Full Stack Developer",
+          "date": "May 2025 - Sep 2025",
+          "sub": "Laravel • Yii • SQL Server • PostgreSQL • Vue",
+          "bullets": [
+            "Optimized backend APIs in Laravel/Yii, reducing latency in critical endpoints by ~40%.",
+            "Implemented asynchronous large-volume data imports via Laravel Queues and cron jobs.",
+            "Reduced direct calls to external APIs by consolidating data through scheduled imports and database persistence.",
+            "Executed data migration from SQL Server to PostgreSQL, adapting existing queries and indexes.",
+            "Developed frontend features in Vue to support new internal workflows."
+          ]
+        },
+        {
+          "title": "The Wave Coworking - Full Stack Developer",
+          "date": "Jun 2024 - Jan 2025",
+          "sub": "Next.js • NestJS • React Native • TypeScript • AWS",
+          "bullets": [
+            "Developed web and mobile platforms for property showcase and management (admin, metrics, and content).",
+            "Created an event ticketing system integrating payments via webhooks and automated ticket issuance (PDF) via email.",
+            "Implemented event management, check-in validation, premium user access, and promotional codes.",
+            "Developed an internal QR code system for validation and operational workflows using TypeScript and NestJS.",
+            "Worked as the sole developer, responsible for architecture, implementation, and AWS deployment."
+          ]
+        },
+        {
+          "title": "HubAtivo - Full Stack Developer Intern",
+          "date": "Mar 2024 - Aug 2024",
+          "sub": "NestJS • MongoDB • Leaflet • React",
+          "bullets": [
+            "Developed REST APIs in NestJS for a real estate platform.",
+            "Implemented geographic visualization and filters using Leaflet, improving the search experience.",
+            "Implemented administrative modules (content and user management) in React integrated with the backend.",
+            "Mentored 3 interns in Node.js and frontend fundamentals."
+          ]
+        },
+        {
+          "title": "Octus Pay - Junior Full Stack Developer",
+          "date": "Apr 2023 - Sep 2023",
+          "sub": "Laravel • MariaDB • Frontend Web",
+          "bullets": [
+            "Developed Laravel backend for an online course platform (user, course, and permission management).",
+            "Implemented admin panels and frontend-backend integrations via REST APIs."
+          ]
+        },
+        {
+          "title": "Smart Cities Lagoa - Full Stack Intern",
+          "date": "May 2023 - Jul 2023",
+          "sub": "Python • Tesseract OCR • OpenCV • React Native",
+          "bullets": [
+            "Created an OCR system in Python (Tesseract/OpenCV) for automatic reading of water meters.",
+            "Developed a React Native app for field capture and reading registration in the user flow.",
+            "Reduced a monthly multi-hour manual process to just a few minutes per reading."
+          ]
+        }
+      ]
+    },
+    "backend": {
+      "headline": "Backend Engineer — Node.js (Express/NestJS) • Laravel / CakePHP • Ruby on Rails",
+      "summary": "Backend Engineer experienced in Node.js (Express/NestJS), Laravel / CakePHP, and Ruby on Rails, focused on developing REST APIs, integrations, and automation. Experienced with SQL Server, PostgreSQL, MariaDB/MySQL, and MongoDB, alongside Docker and AWS/Firebase deployment. Complementary experience with Vue, React, and React Native when needed.",
+      "skills": [
+        "<b>Backend:</b> Node.js (Express), NestJS, Laravel, CakePHP, Ruby on Rails, REST APIs",
+        "<b>Databases:</b> SQL Server, PostgreSQL, MariaDB/MySQL, MongoDB",
+        "<b>Infra:</b> Docker, AWS, Firebase, Git/GitHub",
+        "<b>Frontend (Complementary):</b> Vue, React, React Native"
+      ],
+      "experience": [
+        {
+          "title": "W4M — Mid-Level Full Stack (backend-first)",
+          "date": "May 2025 – Sep 2025",
+          "sub": "Laravel • Yii • SQL Server • PostgreSQL • Vue",
+          "bullets": [
+            "Optimized backend APIs in Laravel/Yii, reducing latency in critical endpoints and improving system stability.",
+            "Implemented large-volume asynchronous imports via Laravel Queues + cron jobs, reducing direct calls to external APIs.",
+            "Executed SQL Server to PostgreSQL data migration, adapting custom queries and indexes according to product standards."
+          ]
+        },
+        {
+          "title": "The Wave Coworking — Backend / Full Stack Developer (sole dev)",
+          "date": "Jun 2024 – Jan 2025",
+          "sub": "NestJS • TypeScript • Next.js • AWS",
+          "bullets": [
+            "Developed a NestJS backend for a ticketing system, integrating global payments via webhooks and automated PDF email issuance.",
+            "Implemented event management, premium users, and promo codes, including operational QR code validation routines.",
+            "Served as the technical architect responsible for software design and AWS deployment, ensuring a stable, continuous delivery operation."
+          ]
+        },
+        {
+          "title": "HubAtivo — Mid-Level Full Stack (backend-first)",
+          "date": "Mar 2024 – Aug 2024",
+          "sub": "NestJS • MongoDB • Leaflet • React",
+          "bullets": [
+            "Developed REST APIs using NestJS for a real estate platform, integrating logic rules with MongoDB persistence.",
+            "Implemented search endpoints and geography-based filters, supporting map visualisations (Leaflet).",
+            "Mentored 3 interns in Node.js patterns and base frontend-backend integration concepts."
+          ]
+        },
+        {
+          "title": "Octus Pay — Junior Back-End Developer",
+          "date": "Apr 2023 – Sep 2023",
+          "sub": "Laravel • MariaDB • Frontend Web",
+          "bullets": [
+            "Developed a Laravel backend for an online e-learning platform featuring REST endpoints for users, courses, and permissions.",
+            "Integrated backend APIs with administrative panels to guarantee data consistency and operational flows."
+          ]
+        },
+        {
+          "title": "Smart Cities Lagoa — Full Stack Intern",
+          "date": "May 2023 – Jul 2023",
+          "sub": "Python • Tesseract OCR • OpenCV • React Native",
+          "bullets": [
+            "Developed a Python OCR system (Tesseract/OpenCV) for reliable, automatic water meter reading, eliminating entry errors.",
+            "Reduced a previously lengthy multi-hour manual procedure into a few minutes by coupling the system via a mobile app."
+          ]
+        },
+        {
+          "title": "Freelancer — Backend / Full Stack Developer",
+          "date": "Jul 2022 – Present",
+          "sub": "Node.js • Ruby on Rails • AWS/Firebase",
+          "bullets": [
+            "Developing custom REST APIs and third-party integrations in Node.js and Ruby on Rails for on-demand projects.",
+            "Managing deployments and maintenance via AWS/Firebase architectures, guaranteeing steady uptime."
+          ]
+        }
+      ]
+    }
+  }
+}
