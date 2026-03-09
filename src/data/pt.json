@@ -15,7 +15,7 @@
   },
   "education": [
     {
-      "title": "Curso Técnico de Gestão e Programação de Sistemas Informáticos <span style=\"font-weight:600;\">(QNQ/EQF – Nível 4)</span>",
+      "title": "Curso Técnico de Gestão e Programação de Sistemas Informáticos <span style=\"font-weight:600;\">(QNQ/EQF - Nível 4)</span>",
       "meta": "Nota final: <b>19/20</b>",
       "date": "2021 - 2024"
     },
@@ -27,13 +27,13 @@
   ],
   "projects": [
     {
-      "title": "Booking Marketplace API",
+      "title": "Booking Marketplace",
       "date": "",
-      "sub": "NestJS • PostgreSQL • BullMQ • Redis",
+      "sub": "NestJS \u2022 Next.js \u2022 PostgreSQL \u2022 Redis \u2022 BullMQ",
       "bullets": [
-        "Desenvolvimento de API backend para marketplace de reservas com gestão de propriedades e blocos de disponibilidade.",
-        "Implementei confirmação de bookings com transações e pessimistic locking (prevenindo overbooking sob concorrência).",
-        "Processamento assíncrono via BullMQ para expiração automática de reservas pendentes."
+        "Desenvolvi um monorepo full stack para marketplace de reservas com API em NestJS e frontend admin em Next.js.",
+        "Implementei CRUD de listings e blocos de disponibilidade, ciclo de vida de bookings (pending/confirmed/cancelled/expired) e dashboard operacional com filtros.",
+        "Garanti consist\u00eancia sob concorr\u00eancia com transa\u00e7\u00f5es + pessimistic locking na confirma\u00e7\u00e3o de reservas e expira\u00e7\u00e3o ass\u00edncrona via BullMQ/Redis."
       ]
     },
     {
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "title": "VINC AI",
+      "title": "VINC",
       "date": "",
       "sub": "React • Supabase • BullMQ",
       "bullets": [
@@ -136,7 +136,7 @@
       "experience": [
         {
           "title": "W4M — Full Stack Pleno (backend-first)",
-          "date": "Mai 2025 – Set 2025",
+          "date": "Mai 2025 - Set 2025",
           "sub": "Laravel • Yii • SQL Server • PostgreSQL • Vue",
           "bullets": [
             "Otimizei APIs backend em Laravel/Yii, reduzindo latência de endpoints críticos e melhorando estabilidade do sistema.",
@@ -146,7 +146,7 @@
         },
         {
           "title": "The Wave Coworking — Backend / Full Stack Developer (dev único)",
-          "date": "Jun 2024 – Jan 2025",
+          "date": "Jun 2024 - Jan 2025",
           "sub": "NestJS • TypeScript • Next.js • AWS",
           "bullets": [
             "Desenvolvi backend em NestJS para sistema de bilhética, integrando pagamentos via webhooks e emissão automática de bilhetes (PDF) por e-mail.",
@@ -156,7 +156,7 @@
         },
         {
           "title": "HubAtivo — Full Stack Pleno (backend-first)",
-          "date": "Mar 2024 – Ago 2024",
+          "date": "Mar 2024 - Ago 2024",
           "sub": "NestJS • MongoDB • Leaflet • React",
           "bullets": [
             "Desenvolvi APIs REST em NestJS para plataforma imobiliária, integrando persistência em MongoDB e regras de negócio.",
@@ -166,7 +166,7 @@
         },
         {
           "title": "Octus Pay — Desenvolvedor Back-End Júnior",
-          "date": "Abr 2023 – Set 2023",
+          "date": "Abr 2023 - Set 2023",
           "sub": "Laravel • MariaDB • Frontend Web",
           "bullets": [
             "Desenvolvi backend em Laravel para plataforma de cursos online, com endpoints REST para gestão de utilizadores, cursos e permissões.",
@@ -175,7 +175,7 @@
         },
         {
           "title": "Smart Cities Lagoa — Full Stack Estagiário",
-          "date": "Mai 2023 – Jul 2023",
+          "date": "Mai 2023 - Jul 2023",
           "sub": "Python • Tesseract OCR • OpenCV • React Native",
           "bullets": [
             "Desenvolvi sistema OCR em Python (Tesseract/OpenCV) para leitura automática de contadores de água, reduzindo erros de registo.",
@@ -184,7 +184,7 @@
         },
         {
           "title": "Freelancer — Backend / Full Stack Developer",
-          "date": "Jul 2022 – Presente",
+          "date": "Jul 2022 - Presente",
           "sub": "Node.js • Ruby on Rails • AWS/Firebase",
           "bullets": [
             "Desenvolvimento de APIs REST e integrações em Node.js e Ruby on Rails para projetos sob demanda.",

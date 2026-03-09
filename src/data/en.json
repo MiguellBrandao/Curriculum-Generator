@@ -15,7 +15,7 @@
   },
   "education": [
     {
-      "title": "Vocational Course in Management and Programming of IT Systems <span style=\"font-weight:600;\">(QNQ/EQF – Level 4)</span>",
+      "title": "Vocational Course in Management and Programming of IT Systems <span style=\"font-weight:600;\">(QNQ/EQF - Level 4)</span>",
       "meta": "Final Grade: <b>19/20</b>",
       "date": "2021 - 2024"
     },
@@ -27,13 +27,13 @@
   ],
   "projects": [
     {
-      "title": "Booking Marketplace API",
+      "title": "Booking Marketplace",
       "date": "",
-      "sub": "NestJS • PostgreSQL • BullMQ • Redis",
+      "sub": "NestJS \u2022 Next.js \u2022 PostgreSQL \u2022 Redis \u2022 BullMQ",
       "bullets": [
-        "Developed backend API for a booking marketplace with listings and availability blocks management.",
-        "Implemented booking confirmation with transactions and pessimistic locking (preventing overbooking under concurrency).",
-        "Asynchronous processing via BullMQ for automatic expiration of pending reservations."
+        "Built a full-stack booking marketplace monorepo with a NestJS API and a Next.js admin frontend.",
+        "Implemented listing and availability-block CRUD, booking lifecycle (pending/confirmed/cancelled/expired), and host operational dashboards with filters.",
+        "Ensured booking consistency under concurrency using transactions + pessimistic locking, with asynchronous expiration handled by BullMQ/Redis."
       ]
     },
     {
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "title": "VINC AI",
+      "title": "VINC",
       "date": "",
       "sub": "React • Supabase • BullMQ",
       "bullets": [
@@ -136,7 +136,7 @@
       "experience": [
         {
           "title": "W4M — Mid-Level Full Stack (backend-first)",
-          "date": "May 2025 – Sep 2025",
+          "date": "May 2025 - Sep 2025",
           "sub": "Laravel • Yii • SQL Server • PostgreSQL • Vue",
           "bullets": [
             "Optimized backend APIs in Laravel/Yii, reducing latency in critical endpoints and improving system stability.",
@@ -146,7 +146,7 @@
         },
         {
           "title": "The Wave Coworking — Backend / Full Stack Developer (sole dev)",
-          "date": "Jun 2024 – Jan 2025",
+          "date": "Jun 2024 - Jan 2025",
           "sub": "NestJS • TypeScript • Next.js • AWS",
           "bullets": [
             "Developed a NestJS backend for a ticketing system, integrating global payments via webhooks and automated PDF email issuance.",
@@ -156,7 +156,7 @@
         },
         {
           "title": "HubAtivo — Mid-Level Full Stack (backend-first)",
-          "date": "Mar 2024 – Aug 2024",
+          "date": "Mar 2024 - Aug 2024",
           "sub": "NestJS • MongoDB • Leaflet • React",
           "bullets": [
             "Developed REST APIs using NestJS for a real estate platform, integrating logic rules with MongoDB persistence.",
@@ -166,7 +166,7 @@
         },
         {
           "title": "Octus Pay — Junior Back-End Developer",
-          "date": "Apr 2023 – Sep 2023",
+          "date": "Apr 2023 - Sep 2023",
           "sub": "Laravel • MariaDB • Frontend Web",
           "bullets": [
             "Developed a Laravel backend for an online e-learning platform featuring REST endpoints for users, courses, and permissions.",
@@ -175,7 +175,7 @@
         },
         {
           "title": "Smart Cities Lagoa — Full Stack Intern",
-          "date": "May 2023 – Jul 2023",
+          "date": "May 2023 - Jul 2023",
           "sub": "Python • Tesseract OCR • OpenCV • React Native",
           "bullets": [
             "Developed a Python OCR system (Tesseract/OpenCV) for reliable, automatic water meter reading, eliminating entry errors.",
@@ -184,7 +184,7 @@
         },
         {
           "title": "Freelancer — Backend / Full Stack Developer",
-          "date": "Jul 2022 – Present",
+          "date": "Jul 2022 - Present",
           "sub": "Node.js • Ruby on Rails • AWS/Firebase",
           "bullets": [
             "Developing custom REST APIs and third-party integrations in Node.js and Ruby on Rails for on-demand projects.",

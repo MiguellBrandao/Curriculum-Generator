@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miguel Brandão - Backend Engineer — Node.js (Express/NestJS) • Laravel / CakePHP • Ruby on Rails</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f2f3f5;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 5px auto;
+      background: #fff;
+      padding: 5mm 14mm;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, .12);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        margin: 0;
+        box-shadow: none;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .top {
+      text-align: center;
+    }
+
+    .name {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 4px 0 6px;
+      color: #333;
+    }
+
+    .contact {
+      font-size: 11.5px;
+      color: #333;
+      line-height: 1.35;
+    }
+
+    .contact a {
+      color: #111;
+    }
+
+    .rule {
+      border-top: 2px solid #111;
+      margin: 10px 0 12px;
+    }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .9px;
+      margin: 0 0 6px 0;
+    }
+
+    .summary {
+      font-size: 12.3px;
+      line-height: 1.45;
+      margin: 0;
+      color: #1a1a1a;
+    }
+
+    .skills {
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .skill-row {
+      margin: 3px 0;
+    }
+
+    .exp-item {
+      margin-top: 9px;
+    }
+
+    .exp-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .exp-title {
+      font-size: 13px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .exp-date {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    .exp-sub {
+      margin-top: 2px;
+      font-size: 11.5px;
+      color: #444;
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 5px 0 0 18px;
+      padding: 0;
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    li {
+      margin: 2px 0;
+    }
+
+    .edu-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: baseline;
+      margin-top: 8px;
+    }
+
+    .edu-title {
+      font-size: 12.5px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .edu-meta {
+      font-size: 11.5px;
+      color: #444;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .muted {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <header class="top">
+      <h1 class="name">Miguel Brandão</h1>
+      <div class="headline">Backend Engineer — Node.js (Express/NestJS) • Laravel / CakePHP • Ruby on Rails</div>
+      <div class="contact">
+        Portimão, Portugal •
+        <a href="mailto:miguellbwork@gmail.com">miguellbwork@gmail.com</a> •
+        <a href="https://linkedin.com/in/miguellbpt" target="_blank" rel="noreferrer">linkedin.com/in/miguellbpt</a> •
+        <a href="https://github.com/MiguellBrandao" target="_blank" rel="noreferrer">github.com/MiguellBrandao</a>
+      </div>
+    </header>
+
+    <div class="rule"></div>
+
+    <section>
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="summary">Backend Engineer experienced in Node.js (Express/NestJS), Laravel / CakePHP, and Ruby on Rails,
+        focused on developing REST APIs, integrations, and automation. Experienced with SQL Server, PostgreSQL,
+        MariaDB/MySQL, and MongoDB, alongside Docker and AWS/Firebase deployment. Complementary experience with Vue,
+        React, and React Native when needed.</p>
+    </section>
+
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills">
+        <div class="skill-row"><b>Backend:</b> Node.js (Express), NestJS, Laravel, CakePHP, Ruby on Rails, REST APIs
+        </div>
+        <div class="skill-row"><b>Databases:</b> SQL Server, PostgreSQL, MariaDB/MySQL, MongoDB</div>
+        <div class="skill-row"><b>Infra:</b> Docker, AWS, Firebase, Git/GitHub</div>
+        <div class="skill-row"><b>Frontend (Complementary):</b> Vue, React, React Native</div>
+      </div>
+    </section>
+
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Professional Experience</h2>
+
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">W4M — Mid-Level Full Stack (backend-first)</p>
+          <div class="exp-date">May 2025 - Sep 2025</div>
+        </div>
+        <div class="exp-sub">Laravel • Yii • SQL Server • PostgreSQL • Vue</div>
+        <ul>
+          <li>Optimized backend APIs in Laravel/Yii, reducing latency in critical endpoints and improving system
+            stability.</li>
+          <li>Implemented large-volume asynchronous imports via Laravel Queues + cron jobs, reducing direct calls to
+            external APIs.</li>
+          <li>Executed SQL Server to PostgreSQL data migration, adapting custom queries and indexes according to product
+            standards.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">The Wave Coworking — Backend / Full Stack Developer (sole dev)</p>
+          <div class="exp-date">Jun 2024 - Jan 2025</div>
+        </div>
+        <div class="exp-sub">NestJS • TypeScript • Next.js • AWS</div>
+        <ul>
+          <li>Developed a NestJS backend for a ticketing system, integrating global payments via webhooks and automated
+            PDF email issuance.</li>
+          <li>Implemented event management, premium users, and promo codes, including operational QR code validation
+            routines.</li>
+          <li>Served as the technical architect responsible for software design and AWS deployment, ensuring a stable,
+            continuous delivery operation.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">HubAtivo — Mid-Level Full Stack (backend-first)</p>
+          <div class="exp-date">Mar 2024 - Aug 2024</div>
+        </div>
+        <div class="exp-sub">NestJS • MongoDB • Leaflet • React</div>
+        <ul>
+          <li>Developed REST APIs using NestJS for a real estate platform, integrating logic rules with MongoDB
+            persistence.</li>
+          <li>Implemented search endpoints and geography-based filters, supporting map visualisations (Leaflet).</li>
+          <li>Mentored 3 interns in Node.js patterns and base frontend-backend integration concepts.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">Octus Pay — Junior Back-End Developer</p>
+          <div class="exp-date">Apr 2023 - Sep 2023</div>
+        </div>
+        <div class="exp-sub">Laravel • MariaDB • Frontend Web</div>
+        <ul>
+          <li>Developed a Laravel backend for an online e-learning platform featuring REST endpoints for users, courses,
+            and permissions.</li>
+          <li>Integrated backend APIs with administrative panels to guarantee data consistency and operational flows.
+          </li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">Smart Cities Lagoa — Full Stack Intern</p>
+          <div class="exp-date">May 2023 - Jul 2023</div>
+        </div>
+        <div class="exp-sub">Python • Tesseract OCR • OpenCV • React Native</div>
+        <ul>
+          <li>Developed a Python OCR system (Tesseract/OpenCV) for reliable, automatic water meter reading, eliminating
+            entry errors.</li>
+          <li>Reduced a previously lengthy multi-hour manual procedure into a few minutes by coupling the system via a
+            mobile app.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">Freelancer — Backend / Full Stack Developer</p>
+          <div class="exp-date">Jul 2022 - Present</div>
+        </div>
+        <div class="exp-sub">Node.js • Ruby on Rails • AWS/Firebase</div>
+        <ul>
+          <li>Developing custom REST APIs and third-party integrations in Node.js and Ruby on Rails for on-demand
+            projects.</li>
+          <li>Managing deployments and maintenance via AWS/Firebase architectures, guaranteeing steady uptime.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="exp-item" style="margin-top:7px;">
+        <div class="exp-head">
+          <p class="exp-title">Booking Marketplace</p>
+          <div class="exp-date"></div>
+        </div>
+        <div class="exp-sub">NestJS • Next.js • PostgreSQL • Redis • BullMQ</div>
+        <ul>
+          <li>Built a full-stack booking marketplace monorepo with a NestJS API and a Next.js admin frontend.</li>
+          <li>Implemented listing and availability-block CRUD, booking lifecycle (pending/confirmed/cancelled/expired),
+            and host operational dashboards with filters.</li>
+          <li>Ensured booking consistency under concurrency using transactions + pessimistic locking, with asynchronous
+            expiration handled by BullMQ/Redis.</li>
+        </ul>
+      </div>
+      <div class="exp-item" style="margin-top:7px;">
+        <div class="exp-head">
+          <p class="exp-title">Keymeter API</p>
+          <div class="exp-date"></div>
+        </div>
+        <div class="exp-sub">Express • Prisma • PostgreSQL • Redis</div>
+        <ul>
+          <li>Developed a multi-tenant backend for event ingestion and analytics.</li>
+          <li>Implemented RBAC and API keys lifecycle management with strict scoped verification.</li>
+          <li>Integrated with Redis for rate limiting and daily data tracking aggregation saved in PostgreSQL.</li>
+        </ul>
+      </div>
+      <div class="exp-item" style="margin-top:7px;">
+        <div class="exp-head">
+          <p class="exp-title">VINC</p>
+          <div class="exp-date"></div>
+        </div>
+        <div class="exp-sub">React • Supabase • BullMQ</div>
+        <ul>
+          <li>AI platform that automates capturing and extracting invoices received via corporate email.</li>
+          <li>Implemented highly reliable background job queues using BullMQ for non-blocking, parallel processing.</li>
+          <li>Fast backend architecture powered by Supabase and structured data extraction utilizing large language
+            models.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Education & Languages</h2>
+
+      <div class="edu-row">
+        <div>
+          <p class="edu-title">Vocational Course in Management and Programming of IT Systems <span
+              style="font-weight:600;">(QNQ/EQF - Level 4)</span></p>
+          <div class="edu-meta">Final Grade: <b>19/20</b></div>
+        </div>
+        <div class="exp-date">2021 - 2024</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <p class="edu-title">English</p>
+          <div class="edu-meta">B1</div>
+        </div>
+        <div class="exp-date"></div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>

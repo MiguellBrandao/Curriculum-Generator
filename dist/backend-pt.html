@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miguel Brandão - Backend Engineer — Node.js (Express/NestJS) • Laravel / CakePHP • Ruby on Rails</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f2f3f5;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 5px auto;
+      background: #fff;
+      padding: 5mm 14mm;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, .12);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        margin: 0;
+        box-shadow: none;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    .top {
+      text-align: center;
+    }
+
+    .name {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 4px 0 6px;
+      color: #333;
+    }
+
+    .contact {
+      font-size: 11.5px;
+      color: #333;
+      line-height: 1.35;
+    }
+
+    .contact a {
+      color: #111;
+    }
+
+    .rule {
+      border-top: 2px solid #111;
+      margin: 10px 0 12px;
+    }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .9px;
+      margin: 0 0 6px 0;
+    }
+
+    .summary {
+      font-size: 12.3px;
+      line-height: 1.45;
+      margin: 0;
+      color: #1a1a1a;
+    }
+
+    .skills {
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .skill-row {
+      margin: 3px 0;
+    }
+
+    .exp-item {
+      margin-top: 9px;
+    }
+
+    .exp-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .exp-title {
+      font-size: 13px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .exp-date {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    .exp-sub {
+      margin-top: 2px;
+      font-size: 11.5px;
+      color: #444;
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 5px 0 0 18px;
+      padding: 0;
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    li {
+      margin: 2px 0;
+    }
+
+    .edu-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: baseline;
+      margin-top: 8px;
+    }
+
+    .edu-title {
+      font-size: 12.5px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .edu-meta {
+      font-size: 11.5px;
+      color: #444;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .muted {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <header class="top">
+      <h1 class="name">Miguel Brandão</h1>
+      <div class="headline">Backend Engineer — Node.js (Express/NestJS) • Laravel / CakePHP • Ruby on Rails</div>
+      <div class="contact">
+        Portimão, Portugal •
+        <a href="mailto:miguellbwork@gmail.com">miguellbwork@gmail.com</a> •
+        <a href="https://linkedin.com/in/miguellbpt" target="_blank" rel="noreferrer">linkedin.com/in/miguellbpt</a> •
+        <a href="https://github.com/MiguellBrandao" target="_blank" rel="noreferrer">github.com/MiguellBrandao</a>
+      </div>
+    </header>
+
+    <div class="rule"></div>
+
+    <section>
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="summary">Backend Engineer com experiência em Node.js (Express/NestJS), Laravel / CakePHP e Ruby on
+        Rails, focado no desenvolvimento de APIs REST, integrações e automações. Experiência com SQL Server, PostgreSQL,
+        MariaDB/MySQL e MongoDB, além de Docker e deploy em AWS/Firebase. Vivência complementar com Vue, React e React
+        Native quando necessário.</p>
+    </section>
+
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills">
+        <div class="skill-row"><b>Backend:</b> Node.js (Express), NestJS, Laravel, CakePHP, Ruby on Rails, REST APIs
+        </div>
+        <div class="skill-row"><b>Databases:</b> SQL Server, PostgreSQL, MariaDB/MySQL, MongoDB</div>
+        <div class="skill-row"><b>Infra:</b> Docker, AWS, Firebase, Git/GitHub</div>
+        <div class="skill-row"><b>Frontend (complementar):</b> Vue, React, React Native</div>
+      </div>
+    </section>
+
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Professional Experience</h2>
+
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">W4M — Full Stack Pleno (backend-first)</p>
+          <div class="exp-date">Mai 2025 - Set 2025</div>
+        </div>
+        <div class="exp-sub">Laravel • Yii • SQL Server • PostgreSQL • Vue</div>
+        <ul>
+          <li>Otimizei APIs backend em Laravel/Yii, reduzindo latência de endpoints críticos e melhorando estabilidade
+            do sistema.</li>
+          <li>Implementei importações assíncronas de grandes volumes via Laravel Queues + cron jobs, reduzindo chamadas
+            diretas a APIs externas.</li>
+          <li>Executei migração de dados de SQL Server para PostgreSQL, adaptando queries e índices existentes conforme
+            padrões do produto.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">The Wave Coworking — Backend / Full Stack Developer (dev único)</p>
+          <div class="exp-date">Jun 2024 - Jan 2025</div>
+        </div>
+        <div class="exp-sub">NestJS • TypeScript • Next.js • AWS</div>
+        <ul>
+          <li>Desenvolvi backend em NestJS para sistema de bilhética, integrando pagamentos via webhooks e emissão
+            automática de bilhetes (PDF) por e-mail.</li>
+          <li>Implementei gestão de eventos, utilizadores premium e códigos promocionais, incluindo validação via QR
+            codes para operações e check-in.</li>
+          <li>Fui responsável por arquitetura e deploy em AWS, garantindo operação estável e ciclo de entrega contínuo.
+          </li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">HubAtivo — Full Stack Pleno (backend-first)</p>
+          <div class="exp-date">Mar 2024 - Ago 2024</div>
+        </div>
+        <div class="exp-sub">NestJS • MongoDB • Leaflet • React</div>
+        <ul>
+          <li>Desenvolvi APIs REST em NestJS para plataforma imobiliária, integrando persistência em MongoDB e regras de
+            negócio.</li>
+          <li>Implementei endpoints de pesquisa e filtros geográficos, suportando visualização em mapa (Leaflet).</li>
+          <li>Orientei 3 estagiários em Node.js e fundamentos de integração frontend-backend.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">Octus Pay — Desenvolvedor Back-End Júnior</p>
+          <div class="exp-date">Abr 2023 - Set 2023</div>
+        </div>
+        <div class="exp-sub">Laravel • MariaDB • Frontend Web</div>
+        <ul>
+          <li>Desenvolvi backend em Laravel para plataforma de cursos online, com endpoints REST para gestão de
+            utilizadores, cursos e permissões.</li>
+          <li>Integrei APIs com painéis administrativos, garantindo consistência de dados e fluxos de operação.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">Smart Cities Lagoa — Full Stack Estagiário</p>
+          <div class="exp-date">Mai 2023 - Jul 2023</div>
+        </div>
+        <div class="exp-sub">Python • Tesseract OCR • OpenCV • React Native</div>
+        <ul>
+          <li>Desenvolvi sistema OCR em Python (Tesseract/OpenCV) para leitura automática de contadores de água,
+            reduzindo erros de registo.</li>
+          <li>Reduzi um processo manual mensal de várias horas para poucos minutos por leitura, integrando captura via
+            app mobile.</li>
+        </ul>
+      </article>
+      <article class="exp-item">
+        <div class="exp-head">
+          <p class="exp-title">Freelancer — Backend / Full Stack Developer</p>
+          <div class="exp-date">Jul 2022 - Presente</div>
+        </div>
+        <div class="exp-sub">Node.js • Ruby on Rails • AWS/Firebase</div>
+        <ul>
+          <li>Desenvolvimento de APIs REST e integrações em Node.js e Ruby on Rails para projetos sob demanda.</li>
+          <li>Deploy e manutenção em AWS/Firebase, garantindo entrega e operação estável.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="exp-item" style="margin-top:7px;">
+        <div class="exp-head">
+          <p class="exp-title">Booking Marketplace</p>
+          <div class="exp-date"></div>
+        </div>
+        <div class="exp-sub">NestJS • Next.js • PostgreSQL • Redis • BullMQ</div>
+        <ul>
+          <li>Desenvolvi um monorepo full stack para marketplace de reservas com API em NestJS e frontend admin em
+            Next.js.</li>
+          <li>Implementei CRUD de listings e blocos de disponibilidade, ciclo de vida de bookings
+            (pending/confirmed/cancelled/expired) e dashboard operacional com filtros.</li>
+          <li>Garanti consistência sob concorrência com transações + pessimistic locking na confirmação de reservas e
+            expiração assíncrona via BullMQ/Redis.</li>
+        </ul>
+      </div>
+      <div class="exp-item" style="margin-top:7px;">
+        <div class="exp-head">
+          <p class="exp-title">Keymeter API</p>
+          <div class="exp-date"></div>
+        </div>
+        <div class="exp-sub">Express • Prisma • PostgreSQL • Redis</div>
+        <ul>
+          <li>Desenvolvimento de backend multi-tenant para ingestão de eventos e analytics.</li>
+          <li>Implementação de RBAC e gestão do ciclo de vida de API keys com verificação de escopos.</li>
+          <li>Integração com Redis para rate limiting rigoroso e agregação diária de tracking de dados estruturados em
+            PostgreSQL.</li>
+        </ul>
+      </div>
+      <div class="exp-item" style="margin-top:7px;">
+        <div class="exp-head">
+          <p class="exp-title">VINC</p>
+          <div class="exp-date"></div>
+        </div>
+        <div class="exp-sub">React • Supabase • BullMQ</div>
+        <ul>
+          <li>Plataforma de IA que automatiza a captura e extração de faturas recebidas via e-mail corporativo.</li>
+          <li>Implementação de filas de trabalhos (jobs) altamente fiáveis em BullMQ para processamento paralelo sem
+            bloqueios de UI.</li>
+          <li>Arquitectura backend veloz baseada em Supabase e tratamento estruturado de dados via grandes modelos de
+            linguagem.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="rule" style="border-top-width:1px;"></div>
+
+    <section>
+      <h2 class="section-title">Education & Languages</h2>
+
+      <div class="edu-row">
+        <div>
+          <p class="edu-title">Curso Técnico de Gestão e Programação de Sistemas Informáticos <span
+              style="font-weight:600;">(QNQ/EQF - Nível 4)</span></p>
+          <div class="edu-meta">Nota final: <b>19/20</b></div>
+        </div>
+        <div class="exp-date">2021 - 2024</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <p class="edu-title">Inglês</p>
+          <div class="edu-meta">B1</div>
+        </div>
+        <div class="exp-date"></div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
