@@ -26,6 +26,7 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 let template = fs.readFileSync(templatePath, 'utf-8');
 
 const variantData = data.variants[variant];
+const projects = variantData.projects || data.projects || [];
 
 const skillsHtml = variantData.skills.map(s => '<div class="skill-row">' + s + '</div>').join('\n      ');
 
@@ -41,7 +42,7 @@ const experienceHtml = variantData.experience.map(exp => `
       </ul>
     </article>`).join('');
 
-const projectsHtml = data.projects.map(proj => `
+const projectsHtml = projects.map(proj => `
     <div class="exp-item" style="margin-top:7px;">
       <div class="exp-head">
         <p class="exp-title">${proj.title}</p>

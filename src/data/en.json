@@ -25,38 +25,6 @@
       "date": ""
     }
   ],
-  "projects": [
-    {
-      "title": "Booking Marketplace",
-      "date": "",
-      "sub": "NestJS \u2022 Next.js \u2022 PostgreSQL \u2022 Redis \u2022 BullMQ",
-      "bullets": [
-        "Built a full-stack booking marketplace monorepo with a NestJS API and a Next.js admin frontend.",
-        "Implemented listing and availability-block CRUD, booking lifecycle (pending/confirmed/cancelled/expired), and host operational dashboards with filters.",
-        "Ensured booking consistency under concurrency using transactions + pessimistic locking, with asynchronous expiration handled by BullMQ/Redis."
-      ]
-    },
-    {
-      "title": "Keymeter API",
-      "date": "",
-      "sub": "Express • Prisma • PostgreSQL • Redis",
-      "bullets": [
-        "Developed a multi-tenant backend for event ingestion and analytics.",
-        "Implemented RBAC and API keys lifecycle management with strict scoped verification.",
-        "Integrated with Redis for rate limiting and daily data tracking aggregation saved in PostgreSQL."
-      ]
-    },
-    {
-      "title": "VINC",
-      "date": "",
-      "sub": "React • Supabase • BullMQ",
-      "bullets": [
-        "AI platform that automates capturing and extracting invoices received via corporate email.",
-        "Implemented highly reliable background job queues using BullMQ for non-blocking, parallel processing.",
-        "Fast backend architecture powered by Supabase and structured data extraction utilizing large language models."
-      ]
-    }
-  ],
   "variants": {
     "fullstack": {
       "headline": "Full Stack Developer - Node.js • Laravel • Ruby on Rails • React • Vue",
@@ -66,6 +34,38 @@
         "<b>Frontend:</b> React, Next.js, Vue, React Native, Angular (Basics)",
         "<b>Databases:</b> SQL Server, PostgreSQL, MariaDB/MySQL, MongoDB",
         "<b>Infra:</b> Docker, AWS, Firebase, Git/GitHub"
+      ],
+      "projects": [
+        {
+          "title": "Irrivio Garden",
+          "date": "",
+          "sub": "NestJS • Next.js • Drizzle ORM • PostgreSQL • Turborepo",
+          "bullets": [
+            "Built a full-stack monorepo for multi-company garden maintenance operations with a NestJS API and a Next.js web app.",
+            "On the frontend, implemented role-based dashboards, active company selection, tenant branding, and management flows for gardens, teams, stock, quotes, and reports.",
+            "On the backend, implemented JWT authentication with refresh-token cookies, RBAC through company memberships, and PostgreSQL + Drizzle data modeling with tenant isolation."
+          ]
+        },
+        {
+          "title": "Booking Marketplace",
+          "date": "",
+          "sub": "NestJS • Next.js • PostgreSQL • Redis • BullMQ",
+          "bullets": [
+            "Built a full-stack booking marketplace monorepo with a NestJS API and a Next.js admin frontend.",
+            "Implemented listing and availability-block CRUD, booking lifecycle (pending/confirmed/cancelled/expired), and host operational dashboards with filters.",
+            "Ensured booking consistency under concurrency using transactions + pessimistic locking, with asynchronous expiration handled by BullMQ/Redis."
+          ]
+        },
+        {
+          "title": "VINC",
+          "date": "",
+          "sub": "React • Supabase • BullMQ",
+          "bullets": [
+            "Platform that automates capturing and extracting invoices received via corporate email with AI.",
+            "Implemented highly reliable background job queues using BullMQ for non-blocking, parallel processing.",
+            "Fast backend architecture powered by Supabase and structured data extraction utilizing large language models."
+          ]
+        }
       ],
       "experience": [
         {
@@ -132,6 +132,28 @@
         "<b>Databases:</b> SQL Server, PostgreSQL, MariaDB/MySQL, MongoDB",
         "<b>Infra:</b> Docker, AWS, Firebase, Git/GitHub",
         "<b>Frontend (Complementary):</b> Vue, React, React Native"
+      ],
+      "projects": [
+        {
+          "title": "Irrivio Garden",
+          "date": "",
+          "sub": "NestJS • Drizzle ORM • PostgreSQL • JWT • RBAC",
+          "bullets": [
+            "Built the NestJS API for a multi-tenant garden operations platform with JWT authentication and company-scoped authorization.",
+            "Modeled the PostgreSQL schema with Drizzle for companies, company memberships, teams, tasks, stock, quotes, payments, and reports.",
+            "Implemented consistent REST contracts across modules, tenant isolation, and role-based access rules throughout the domain."
+          ]
+        },
+        {
+          "title": "Keymeter API",
+          "date": "",
+          "sub": "Express • Prisma • PostgreSQL • Redis",
+          "bullets": [
+            "Developed a multi-tenant backend for event ingestion and analytics.",
+            "Implemented RBAC and API keys lifecycle management with strict scoped verification.",
+            "Integrated with Redis for rate limiting and daily data tracking aggregation saved in PostgreSQL."
+          ]
+        }
       ],
       "experience": [
         {
